@@ -1,0 +1,263 @@
+CREATE DATABASE fc;
+CREATE USER 'user'@'localhost' IDENTIFIED BY 'password';
+GRANT ALL PRIVILEGES ON * . * TO 'user'@'localhost';
+
+sudo mysql -u user -p
+password
+
+
+USE fc;
+
+DROP TABLE IF EXISTS countries_cities;
+DROP TABLE IF EXISTS countries;
+DROP TABLE IF EXISTS people;
+DROP TABLE IF EXISTS cities;
+
+CREATE TABLE people (
+    id INT NOT NULL,
+    country NVARCHAR(255),
+    city NVARCHAR(255),
+    PRIMARY KEY (id)
+);
+
+CREATE TABLE countries (
+    id INT NOT NULL AUTO_INCREMENT,
+    country NVARCHAR(255),
+    n_cities INT,
+    cities MEDIUMTEXT,
+    n_people INT,
+    PRIMARY KEY (id)
+);
+
+CREATE TABLE cities (
+    id INT NOT NULL AUTO_INCREMENT,
+    city NVARCHAR(255),
+    PRIMARY KEY (id)
+);
+
+CREATE TABLE countries_cities (
+    id INT NOT NULL AUTO_INCREMENT,
+    country_id INT,
+    city_id INT,
+    PRIMARY KEY (id),
+    FOREIGN KEY (country_id) REFERENCES countries(id), 
+    FOREIGN KEY (city_id) REFERENCES cities(id),
+    UNIQUE (country_id, city_id)
+);
+
+CREATE INDEX people_country_index ON people (country);
+CREATE INDEX people_city_index ON people (city);
+CREATE UNIQUE INDEX countries_country_index ON countries (country);
+CREATE UNIQUE INDEX cities_city_index ON cities (city);
+
+LOAD DATA LOCAL INFILE 'data.csv' 
+    INTO TABLE people 
+    FIELDS TERMINATED BY ';' 
+    ENCLOSED BY '"'
+    LINES TERMINATED BY '\r\n'
+    IGNORE 1 ROWS;
+
+
+
+INSERT INTO countries (country) SELECT DISTINCT(country) FROM people ORDER BY country;
+INSERT INTO cities (city) SELECT DISTINCT(city) FROM people ORDER BY city;
+
+
+
+
+INSERT INTO countries_cities (country_id, city_id)
+    SELECT cur_country_id, cities.id
+    FROM cities INNER JOIN (
+        SELECT DISTINCT countries.id AS cur_country_id, people.city AS cur_city
+        FROM countries INNER JOIN people
+        ON countries.country = people.country ) AS sub_table
+    ON cities.city = cur_city;
+
+
+SET session group_concat_max_len = 1000000;
+
+
+UPDATE countries SET
+    cities = (
+        SELECT GROUP_CONCAT(city SEPARATOR ', ') FROM cities INNER JOIN countries_cities ON
+            countries_cities.city_id = cities.id
+        WHERE countries_cities.country_id = countries.id
+    ),
+	n_people = (SELECT COUNT(*) FROM people WHERE country = countries.country),
+    n_cities = (SELECT COUNT(*) FROM countries_cities WHERE country_id = countries.id);
+
+
+
+
+
+DROP PROCEDURE MergeCountries;
+
+
+DELIMITER $$
+CREATE PROCEDURE MergeCountries (
+    first NVARCHAR(255),
+    second NVARCHAR(255)
+)
+BEGIN
+    DECLARE first_id, second_id INT;
+
+    -- пересичтывает людей и города
+    UPDATE countries SET
+        n_people = (SELECT * FROM (
+            SELECT SUM(n_people) FROM countries
+            WHERE country = first OR country = second
+        ) AS tmp_t1),
+        n_cities = (SELECT * FROM (
+            SELECT SUM(n_cities) FROM countries
+            WHERE country = first OR country = second
+        ) AS tmp_t2)
+    WHERE country = first;
+
+
+    SELECT id FROM countries WHERE country = first INTO first_id;
+    SELECT id FROM countries WHERE country = second INTO second_id;
+
+    -- удвляет записи об одном городе в двух странах
+    DELETE FROM countries_cities WHERE id IN ( SELECT * FROM (
+        SELECT B.id
+        FROM countries_cities A, countries_cities B
+            WHERE A.country_id = first_id AND
+                B.country_id = second_id AND
+                A.city_id = B.city_id
+    ) AS tmp_t3);
+
+    -- передаёт неповторяющиеся города
+    UPDATE countries_cities SET
+        country_id = first_id
+    WHERE country_id = second_id;
+
+
+    -- переписывает строку с городами
+    UPDATE countries SET
+        cities = (
+            SELECT GROUP_CONCAT(city SEPARATOR ', ') FROM cities INNER JOIN countries_cities ON
+                countries_cities.city_id = cities.id
+            WHERE countries_cities.country_id = first_id
+        )
+    WHERE countries.id = first_id;
+
+    -- удаляет упоминание второй страны
+    DELETE FROM countries WHERE country = second;
+END$$
+DELIMITER ;
+
+
+
+
+
+
+
+
+
+
+DROP PROCEDURE MergeCities;
+
+
+DELIMITER $$
+CREATE PROCEDURE MergeCities (
+    first NVARCHAR(255),
+    second NVARCHAR(255)
+)
+BEGIN
+    DECLARE first_id, second_id INT;
+
+    SELECT id FROM cities WHERE city = first INTO first_id;
+    SELECT id FROM cities WHERE city = second INTO second_id;
+
+
+    -- удаляет записи о об одной стране с двумя городами
+    DELETE FROM countries_cities WHERE id IN ( SELECT * FROM (
+        SELECT B.id
+        FROM countries_cities A, countries_cities B
+            WHERE A.city_id = first_id AND
+                B.city_id = second_id AND
+                A.country_id = B.country_id
+    ) AS tmp_t3);
+
+    -- передаёт неповторяющиеся страны
+    UPDATE countries_cities SET
+        city_id = first_id
+    WHERE city_id = second_id;
+
+
+    -- переписывает строку с городами и пересчитывает города
+    UPDATE countries SET
+    cities = (
+        SELECT GROUP_CONCAT(city SEPARATOR ', ') FROM cities INNER JOIN countries_cities ON
+            countries_cities.city_id = cities.id
+        WHERE countries_cities.country_id = countries.id
+    ),
+    n_cities = (SELECT COUNT(*) FROM countries_cities WHERE country_id = countries.id);
+
+    -- удаляет упоминания второго города
+    DELETE FROM cities WHERE city = second;
+END$$
+DELIMITER ;
+
+
+
+
+
+
+
+
+##############################################################################
+
+SELECT id, country, n_cities FROM countries WHERE country LIKE "Россия_";
+SELECT * FROM countries WHERE country LIKE "Россия_";
+SELECT * FROM countries_cities WHERE country_id BETWEEN 248 AND 250;
+
+
+SELECT * FROM countries_cities WHERE city_id BETWEEN 1351 AND 1352;
+
+
+SELECT MergeCountries("Беларусь", "Белорусь");
+mysqldump --user=vasya --password db_name tbl_name >tbl_name.sql
+
+SELECT * FROM countries INTO OUTFILE '/var/lib/mysql-files/new_data.csv' FIELDS TERMINATED BY ';' ENCLOSED BY '"' LINES TERMINATED BY '\n';
+mv /var/lib/mysql-files/new_data.csv .
+
+UPDATE countries
+    SET n_people = (SELECT COUNT(*) FROM people WHERE country = countries.country);
+
+UPDATE countries
+    SET n_cities = (SELECT COUNT(DISTINCT(city)) FROM people WHERE country = countries.country);
+
+
+
+SELECT * FROM countries;
+TRUNCATE TABLE countries;
+DROP TABLE countries;
+
+
+
+UPDATE countries SET cities = NULL;
+
+
+CREATE TABLE countries_cities (
+    country_id INT,
+    city_id INT,
+    PRIMARY KEY (country_id, city_id)
+);
+
+
+INSERT INTO countries_cities (country_id, city_id)
+    SELECT countries.id, cities.id FROM countries INNER JOIN cities ON
+    EXISTS(SELECT country, city FROM people
+    WHERE people.country = countries.country AND people.city = cities.city);
+
+
+
+SELECT GROUP_CONCAT(city SEPARATOR ', ') FROM cities;
+set character_set_database = utf8;
+
+ALTER TABLE people DROP INDEX people_country_index;
+
+
+Александро-Невский                                                                                                               |
+|  1352 | Александро-Невское

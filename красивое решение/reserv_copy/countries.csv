@@ -1,0 +1,299 @@
+1;;1;;1
+2;(965) 268-64-01;1;Москва;1
+3;-1082;1;Омск;1
+4;-1127;1;Емельяново;1
+5;-1309;1;Чебоксары;1
+6;-1572;1;Таганрог;1
+7;-1697;1;Москва;1
+8;79041730674;1;Каменск-Уральский;1
+9;79504865186;1;Тюмень;1
+10;79616625709;1;Санкт-Петербург;1
+11;"9,93E+11";1;Душанбе;1
+12;Afghanistan;26;"Arazi, Balkh, Bāmīān, Barchī, Bazari-Badakhshi, gardiz, Ghazni, Ghaznī Gak, Ghowr, Herat, Jaghatū Ghaznī, Jāghūrī, Jalalabad, kabol, Kabul, Kandahar, Kapisa, Kondūz, Lowgarīhā, Mazār-e Sharīf, Mazar-e-sharif, Moscow, Parwan, Pol-e Khomrī, Samangān, Talūkān";216
+13;Albania;2;"Vlorë, Худжанд";3
+14;Algeria;11;"Alger, Algiers, Batna, Béchar, Hammam Guergour, M'sila, Nekmaria Mostaganem, Oran, Sétif, Sidi Ghiles, Tizi Ouzou";24
+15;Algérie;1;Batna;1
+16;Andorra;1;Andorra la Vella;1
+17;Angola;1;LUANDA;1
+18;Argentina;6;"Buenos Aires, Mar del Plata, Posadas, Salta, San Carlos de Bariloche, San Patricio del Chañar";7
+19;Armenia;7;"Abovyan, Erevan, Gyumri, Masis, Yerevan, Ереван, Степанаван";22
+20;Australia;1;Brisbane;1
+21;Azerbaijan;5;"Baku, Shirvan, Sumqayit, Yasamal (Baku), Баку";9
+22;Bahamas;1;Kabul;1
+23;Bahrain;1;Bilād al Qadīm;1
+24;Bangladesh;11;"Chirirbandar, Chittagong, Dhaka, Gazipur, Matlab Dakshin, Mymensingh, Rajshahi, Rangpur, Sreemongal, Sylhet, Tangail";34
+25;Belarus;6;"Grodno, Волковыск, Гомель, Гродно, Минск, Могилев";9
+26;Belgium;1;Bruxelles;1
+27;Belize;1;Belize City;1
+28;Benin;1;Abomey-Calavi;1
+29;Bolivia;3;"Cochabamba, Santa Cruz de la Sierra, Sucre";6
+30;Botswana;1;Gaborone;2
+31;Brasil;12;"Campinas, Curitiba, Farroupilha, Fortaleza, Goiânia, Jacareí, Porto Alegre, Recife, Salvador, São Bernardo do Campo, São José dos Campos, São Paulo";15
+32;Brazil;33;"Anápolis, Barra dos Coqueiros, Belém, Belo Horizonte, Brasília, Cosmópolis, Criciúma, Cubatão, Curitiba, Divinópolis, Dourados, Erechim, Florianópolis, Fortaleza, Goiânia, Guararapes, João Pessoa, Manaus, Niterói, Porto Alegre, Recife, Rio Branco, Rio de Janeiro, Salvador, Santa Fé do Sul, São Carlos, São Gonçalo, São José dos Campos, São Leopoldo, São Paulo, Sapiranga, Teresina, Valinhos";63
+33;Cambodia;2;"banteay mean cheay, Phnom Penh";5
+34;Cameroon;3;"Bamenda, Douala, Yaoundé";3
+35;Cameroun;1;Yaoundé;1
+36;Chile;4;"Osorno, Santiago, Temuco, Villa Alemana";6
+37;China;7;"Baise, Guangzhou, Hefei, Nanjing, Suzhou, Wuhan, Xiamen";7
+38;Colombia;3;"Bogotá, Pasto, Sogamoso";6
+39;Columbia;1;Cartagena de Indias;1
+40;Congo;1;Brazzaville;1
+41;Costa Rica;3;"Cartago, Grecia, San José";5
+42;Czech Republic;1;Ostrava;1
+43;Deutschland;1;Kyritz;1
+44;Dominican Republic;1;Santo Domingo;1
+45;Ecuador;2;"Guayaquil, Quito";2
+46;Egypt;20;"Alexandria, Ashmūn, Cairo, Diyarb Najm, El-Mahalla El-Kubra, Faiyum, Fāqūs, Giza, Hurghada, Kafr el-Sheikh, Luxor, Madīnat an Naşr, Madīnat as Sādāt, Madīnat ash Shurūq, Moscow, Port Said, Suez, TALKAH-MANSOUER-DKHAIL, Tanta, Zagazig";59
+47;España;1;Sevilla;1
+48;Estonia;1;Tallinn;1
+49;Ethiopia;2;"Addis Ababa, Hossana";2
+50;Gambia;1;Banjul;3
+51;Georgia;3;"Tbilisi, Москва, Тбилиси";13
+52;Germany;2;"Berlin, Москва";2
+53;Ghana;6;"Accra, Agona, Koforidua, Kumasi, Moscow, Sekondi";13
+54;Greece;1;Athens;2
+55;Guatemala;1;San Lucas Sacatepéquez;2
+56;Guinée;1;Conakry;1
+57;Hoa Kỳ;1;Abco;1
+58;Hungary;2;"Budapest, Pécs";2
+59;India;51;"Ahmadnagar, Ahmedabad, Allahābād, Arāria, Aurangābād, Bangalore, Bhiwani, Bhubaneswar, Bokaro Steel City, Chandīgarh, chennai, Chiriākot, Cochin, DAUAS, Dehra Dūn, Delhi, Ernakulam, Faizabad, Farīdābād, ganj basoda, Gondia, Greater Noida, Gurgaon, Gwalior, Hājīpur, Haldia, HALISAHAR, Hardoī, Haridwar, Hyderābād, Jaipur, Jalgaon, Jehanabad, JIND, Kolkata, Kota, Lucknow, Mahesāna, Manipal, Mathura, Meerut, Mumbai, Muzaffarpur, Nagpur, Nalbari, New Delhi, Noida, Roorkee, Sangli, Srinagar, Wardha";124
+60;Indonesia;3;"Bandung, Jakarta, Probolinggo Districts";8
+61;Iran;7;"fasa, isfahan, Mashhad, Rasht, Guilan, Shiraz, Tabrīz, Tehran";10
+62;Iraq;5;"Al `Amārah, Babylon, Baghdad, Erbil, Mosul";9
+63;Ireland;1;Dublin;1
+64;Israel;4;"Ashdod, Bat Yam, Haifa, Tel Aviv";4
+65;Italy;2;"Napoli, Trani";2
+66;Japan;1;Tokyo;2
+67;Jordan;1;Amman;3
+68;Kazakhstan;16;"Almaty, Astana, Karaganda, Karagandy, kareaganda, Pavlodar, Semey, Taraz, Актобе, Алма-Ата, Алматы, Астана, Караганда, Семей, Талдыкорган, Уральск";35
+69;Kenya;2;"Mombasa, Nairobi";6
+70;Kuwait;1;Kuwait;1
+71;Kyrgyzstan;4;"Bishkek, Баткен, Бишкек, Каракол";14
+72;Laos;1;Savannakhét;1
+73;Latvia;3;"Liepāja, Rīga, Rubene";5
+74;Latvija;1;Rīga;1
+75;Lebanon;2;"Beirut, Tyre";2
+76;Lesotho;1;Maseru;1
+77;Liberia;3;"Kakata, Monrovia, Sinkor";5
+78;Libya;2;"Benghazi, Sabha";2
+79;Lithuania;1;Vilnius;1
+80;Macedonia;1;Skopјe;2
+81;Malaysia;6;"DELETED, Ipoh, Kajang, Kuala Lumpur, Shah Alam, Sungai Petani";9
+82;Maldives;1;Malé;1
+83;Mali;1;Bamako;2
+84;Mauritania;1;Nouakchott;1
+85;Mexico;4;"Cd Juarez, Cuernavaca, Guadalajara, Monterrey";4
+86;Moldova;3;"Chisinau, Кишинев, Тирасполь";6
+87;Morocco;12;"Agadir, Casablanca, El Gara, Essaouira, Kenitra, Marrakech, Ouarzazat, Oujda, Rabat, Tahla, Tetouan, Tinghir";13
+88;Mozambique;1;Chokwé;1
+89;Nepal;4;"Birātnagar, Kathmandu, Pokhara, sunsari";7
+90;Nicaragua;6;"Ciudad Darío, Jinotepe, Managua, Matagalpa, Nagarote, San Sebastián de Yalí";10
+91;Nigeria;12;"Abuja, Awka, Ibadan, Ikorodu, Ilorin, Jos, Lagos, Lekki, Mushin, Osogbo, Yola, Zaria";27
+92;O'zbekiston;1;Namangan;1
+93;Pakistan;34;"Bahawalpur, Bhakkar, Chhor, Faisalābād, Gilgit, Gujrānwāla, gujrat, Hyderābād, Islamabad, Karāchi, Khairpur, Khanewal, Kotri Purānī, Lahore, Miānwāli, Moscow, Multan, Muzaffarabad, Muzaffargarh, Narowal, New Mīrpur, Nowshera Cantonment, Peshāwar, Peshāwar District, Quetta, Rājo Khanāni, Rānīpur Riyāsat, Rāwalpindi, Shāhdādkot, Siālkot, Siālkot District, Swabi, Tando Allāhyār, Thatta";104
+94;Panama;1;Panama;1
+95;Paraguay;1;Asunción;1
+96;Perú;17;"Arequipa, Cayma, Chepén, Comas, Cusco, Huachipa, Huamanga, Huancayo, Huánuco, Ica, Iquitos, Lima, Puno, San Juan De Lurigancho, Sullana, Trujillo, Yekaterinburg";56
+97;Philippines;4;"Cebu City, Polangui, Tagaytay, Taguig";4
+98;Poland;3;"Czechowice-Dziedzice, Gdańsk, Warszawa";3
+99;Pоссия;1;Севастополь;1
+100;Romania;2;"Galaţi, Giurgiu";2
+101;Russia;170;TO MANY CITIES;1390
+102;Russland;1;Москва;1
+103;Rwanda;3;"Kamonyi, Kigali, Muhanga";4
+104;Saint Kitts and Nevis;1;Basseterre;1
+105;Saudi Arabia;5;"Ad Dammām, Jiddah, Mecca, Riyadh, Şafwá";13
+106;Sénégal;1;Dakar;1
+107;Serbia;1;Beograd;6
+108;Sierra Leone;2;"Freetown, Kenema";3
+109;Singapore;1;Singapore;3
+110;Slovakia;2;"Bratislava, Košice";4
+111;Somalia;1;Mogadishu;1
+112;South Africa;10;"Bloemfontein, Cape Town, De Aar, Denneboom, Durban, Hluvukani, Johannesburg, Port Elizabeth, Pretoria, Pretoria-Noord";14
+113;Spain;2;"Barcelona, Tarancón";6
+114;Sri Lanka;4;"Colombo, Galle, Southern Province, Veyangoda";4
+115;Sudan;1;Khartoum;2
+116;Suriname;1;Lelydorp;1
+117;Sweden;1;Malmö;1
+118;Switzerland;1;Geneva;1
+119;Syria;3;"Baniyas,Tartous, Damascus, Jablah";5
+120;Tajikistan;2;"Dushanbe, Душанбе";2
+121;Tanzania;3;"Arusha, Dar es Salaam, Morogoro";4
+122;Thailand;1;Bangkok;1
+123;Togo;2;"Kara, Lomé";5
+124;Trinidad and Tobago;1;Victoria;1
+125;Tunisia;10;"Bizerte, Gabès, Jemmel, Majāz al Bāb, Muscat, Nabeul, Sfax, Soliman, Sousse, Tunis";14
+126;Tunisie;1;Казань;1
+127;Turkey;8;"Ankara, Antakya, Antalya, Gaziantep, İstanbul, Kahramanmaraş, Soma, Tekirdağ";21
+128;Turkmenistan;2;"Ashkhabad, Мары";2
+129;Uganda;1;Kampala;3
+130;Ukraine;8;"Kharkiv, Kyiv, Днепропетровск, Запорожье, Киев, Николаев, Одесса, Пермь";11
+131;United Arab Emirates;3;"Abu Dhabi, Dubai, Sharjah";3
+132;United Kingdom;5;"Belfast, London, Swansea, Wrexham, Лондон";9
+133;United States;2;"Atlanta, State College";3
+134;USA;13;"Auburn, Charlotte, Cuyahoga Falls, El Paso, Houston, Madison, Milwaukee, Moscow, New York City, San Carlos, San Francisco, South Milwaukee, Thousand Oaks";21
+135;Uzbekistan;5;"Karshi, Kokand, Nukus, Tashkent, Yakkabag (Yakkabagskiy rayon)";7
+136;Venezuela;4;"Barquisimeto, Caracas, Maracaibo, Valencia";6
+137;Việt Nam;7;"Cần Thơ, Ho Chi Minh City, Huế, Huyện Hòa Thành, Thái Nguyên, Vinh, Điện Biên Phủ";11
+138;Vietnam;8;"Cửa Lò, Da Nang, Haiphong, Hanoi, Ho Chi Minh City, Huyện Chư Sê, Phan Thiết, Đà Lạt";16
+139;Yemen;3;"Al Mukallā, Hajjah, sana'a";3
+140;Zambia;1;Lusaka;3
+141;Zimbabwe;1;Harare;1
+142;Австралия;4;"Adelaide, Perth, Sydney, Балканабад";6
+143;Австрия;3;"Graz, Wien, Санкт-Гилген";5
+144;Азербайджан;21;"Baku, Али-Байрамлы, Алтн Булг, Баку, Гянджа, Евлах, Загатала, Ивановка, Калуга, Лянкяран, Москва, Насими (Баку), Нахичевань, Сабаил (Баку), Санкт-Петербург, Северодвинск, Сумгаит, Уфа, Ханкенди, Чебоксары, Ясамал (Баку)";102
+145;Алжир;4;"Alger, Boumerdes, Constantine, Алжир";5
+146;Американское Самоа;1;Pago Pago;1
+147;Ангилья;2;"London, The Valley";3
+148;Ангола;3;"Kuito, Губадаг, Улан-Удэ";4
+149;Андорра;1;Душанбе;1
+150;Антигуа и Барбуда;1;Liberta;1
+151;Армения;68;"stepanakert, Yerevan, Абовян, Аван, Агарак (Аштаракский район), Агарак (Талинский район), Азатаван, Айнтап, Армавир, Арташат, Артик, Ахурян, Аштарак, Байконур, Балаовит, Балашиха, Барабинск, бахчисанбе, Бахчисарай, Вагаршапат, Ванадзор, Варденис, Видное, Волгоград, Выборг, Гавар, Гюмри, д. Асаново, Дилижан, Долгопрудный, Егвард, Екатеринбург, Ереван, Ехегнадзор, Жуково, Заинск, Иджеван, Ижевск, Казань, Кириши, Кострома, Краснодар, Кратово, Кумертау, Лакинск, Мартуни, Москва, Неркин Птгни, Нижний Новгород, Нор Ачин, Нор Кюрин, Петрозаводск, Псков, Раздан, Рязань, с. Смоленка Читинский район, Санкт-Петербург, Саров, Сергиев Посад, Сисиан, Смирново, Степанакерт, Сургут, Трехгорный, Тюмень, Ульяновск, Ханкенди, Хндзореск";631
+152;Афганистан;3;"Herat, Kabul, Mazār-e Sharīf";8
+153;Багамы;1;High Rock;1
+154;Бангладеш;5;"Chittagong, Comilla, Daulatpur, Dhaka, Hathazari";7
+155;Беларусь;205;TO MANY CITIES;3349
+156;Белорусь;1;Минск;1
+157;Бельгия;1;Bruxelles;1
+158;Болгария;5;"Burgas, Pravets, Sofia, Varna, Yambol";17
+159;Боливия;2;"La Paz, Santa Cruz de la Sierra";2
+160;"Бонайре, Синт-Эстатиус и Саба";2;"Алматы, Челябинск";2
+161;Бразилия;14;"Belém, Brasília, cachoeirinha, Curitiba, Maringá, Porto Alegre, Recife, Rio de Janeiro, Santa Inês, Santa Maria, Santo Ângelo, São José dos Campos, São Paulo, Vitória da Conquista";24
+162;Бруней-Даруссалам;1;Лакинск;1
+163;Бурунди;1;Kafr al-sheikh;1
+164;Бутан;1;Punākha;1
+165;Ватикан;2;"12-й, Ростов-на-Дону";2
+166;Великобритания;12;"Belfast, Birmingham, Bournemouth, Bradford, Knutsford, Leeds, London, Oxford, Welwyn Garden City, Дзержинский, Нефтеюганск, Тамбов";19
+167;Венгрия;1;Budapest;2
+168;Венесуэла;1;San Carlos;1
+169;"Виргинские острова, США";1;Charlotte Amalie;1
+170;Вьетнам;8;"Haiphong, Hanoi, Ho Chi Minh City, Kaliningrad, Sông Công, Thái Nguyên, Vũng Tàu, Москва";42
+171;Габон;1;Санкт-Петербург;1
+172;Гайана;1;Georgetown;1
+173;Гана;1;Kumasi;1
+174;Гвинея;1;Conakry;2
+175;Германия;20;"Aachen, Ablach, Berlin, Bonn, Burbach, Dessau, Dessau-Roßlau, Dresden, Düsseldorf, Frankfurt am Main, Hamburg, Hannover, Köln, Leingarten, Leipzig, München, Preetz, Schwedt/Oder, Stuttgart, Wuppertal";48
+176;Гондурас;1;San Pedro Sula;1
+177;Греция;1;Athens;2
+178;Грузия;23;"Амбролаури, Атоци, Атырау, Ахалкалаки, Ахалцихе, Батуми, Гагра, Донецк, Ереван, Зугдиди, Кутаиси, Москва, Ниноцминда, Ногинск, Санкт-Петербург, Сенаки, Ставрополь, Сухум, Тбилиси, Тверь, Телави, Томская область, Цхинвал";65
+179;Дания;2;"Copenhagen, Dortmund";2
+180;Джибути;1;Djibouti;1
+181;Доминика;1;Roseau;1
+182;Доминиканская Республика;1;Santo Domingo;1
+183;Египет;5;"Alexandria, Cairo, Giza, Hurghada, Mansoura";12
+184;Елец;1;Елец;1
+185;Израиль;14;"Ashkelon, Kfar Saba, Nesher, Абросимово, Брест, Гродно, Гюмри, Минск, Москва, Петах Тиква, Реховот, Ришон ЛеЦион, Тель-Авив, Хайфа";26
+186;Индия;10;"Bangalore, Bareilly, Betūl, Bilāspur, chennai, Delhi, Hyderābād, Jammu, Kolkata, New Delhi";13
+187;Индонезия;1;Jakarta;1
+188;Иордания;2;"Ḑānā, Moscow";2
+189;Ирак;1;Baghdad;1
+190;Иран;2;"Arāk, Tehran";5
+191;Ирландия;1;Oldcastle;1
+192;Испания;5;"Barcelona, Málaga, Murcia, Sevilla, Valencia";7
+193;Италия;5;"Bari, Napoli, San Lazzaro di Savena, Treviso, Сургут";5
+194;Йемен;1;Taizz;1
+195;Казакстан;1;Алматы;1
+196;Казахстан;300;TO MANY CITIES;7530
+197;Казахстанон;1;Алматы;1
+198;Канада;18;"105 Mile House, Amiraults Corner, Appleton, Barrie, Calgary, Jasper Park Lodge, Ottawa, Port Moody, Québec, rfferf, Thornhill, Toronto, Windsor, Winnipeg, Бишкек, Воркута, Новосергиевка, Санкт-Петербург";33
+199;Кипр;4;"Kyrenia, Larnaca, Limassol, Nicosia";7
+200;Киргизия;7;"Bishkek, Арча-бешик, Бишкек, Г.Бишкек, Город, Город Бишкек, С. Новопавловка";28
+201;Киргизстан;1;Бишкек;1
+202;Кирилл;1;Москва;1
+203;Китай;3;"Anyang City, Beijing, Shenzhen";6
+204;Колумбия;3;"Bucaramanga, Cali, Puerto de Oro";3
+205;Куба;3;"Habana, Havana, Гавана";7
+206;Кыргызстан;56;"adsad, Bishkek, Ак-суу, Ак-Татыр, Ала-Бука, Аламедин, Ананьево, Балыкчы, Баткен, Беловодское, Бирдик, Бишек, Бишкек, Бишкек,, Брест, Бураево, Джалал-Абад, Ивановка, Кадамжай, Кант, Кара-Балта, Кара-Куль, Кара-Суу, Каракол, Кемерово, Кок-Жар, кызл кия, Кызыл-Бел, Кызыл-Кия, Лебединовка, Ленинское, Маевка, Москва, Нарын, Нижневартовск, НОВОПАВЛОВКА, Ош, Покровка, с. Новониколаевка, с. Орто-Сай, с. Селекционное, с. Таш-Кыя, село Кок-Жар Аламединский район, село Лебединовка, село Октябрьское, село Шалта, Сокулук, Талас, Темировка, Теплоключенка, Токмок, Токтогул, Уфа, Уч-Коргон, Челябинск, Шопоков";2172
+207;Кыргызстна;1;Бишкек;1
+208;Лаос;1;Pakxé;1
+209;Латвия;20;"Dartija, Daugava, Daugavpils, Jēkabpils, Jelgava, Jūrmala, Liepāja, Mārupe, Ogre, Olaine, Rēzekne, Rīga, Salaspils, Stūnīši, Valmiera, Ventspils, Даугавпилс, Инчукалнс, Минск, Рига";173
+210;Ливан;1;Zonguldak;1
+211;Литва;7;"Agluonai, Kaunas, Klaipėda, Šiauliai, Vilnius, Zarasai, Астана";21
+212;Македония;5;"Берово, Македонска Каменица, Неготино, Свети Николе, Штип";5
+213;Малави;1;Blantyre;1
+214;Марокко;2;"Casablanca, Rabat";2
+215;Мексика;3;"México, Monterrey, Москва";4
+216;Молдаова;1;Кишинев;1
+217;Молдова;86;"Bendery, Chisinau, TIRASPOL, Абаклия, Авдарма, Арионешты, Баурчи, Башкалия, Бельцы, Бендеры, Бессарабка, Бешгёз, Бричаны, Валя Пержей, Ватра, Воронеж, Вулканешты, Вулкэнешты, г. Твардица, Гайдары, Гиска, Глиное (Слободзея), Глодяны, Григориополь, Днестровск, Доброджя Ноуэ, Дондюшаны, Дрокия, Дубоссары, Единцы, Етулия, Золотиевка, Золотиевка(сел.), Кагул, Казаклия, Каменка, Каушаны, Кириет-Лунга, Кирсова, Кирсово, Кицканы, Кишинев, Комрат, Комрат село Ферапонтиевка, Конгаз, Константиновка, Копчак, Кортен, Красное, Красное(Слободзея), Кременчуг (Тирасполь), Липканы, Новые Анены, Окница, Оргеев, Парканы, Первомайск, Победа, Рвбница, Резина, Рыбница, с.Кирсово, с.Копчак, Слободзея, Сороки, Суклея, Тараклия, Твардица, Терновка, Тираполь, Тирасполь, Томай, Унгены, Ферапонтьевка, Флорешты, Фрунзе, Фэлешть, Хынчешты, Чадыр-Лунга, Чишмикёй, Чобручи, Чок-Майдан, Штефан-Водэ, Южное, Яловены, Яргара";1764
+218;"Молдова, ПМР";1;Тирасполь;1
+219;Молодова;1;Кишинев;1
+220;Монако;1;Котлас;1
+221;Монголия;9;"Choibalsan, Erdenet, Mongolia, Ulaanbaatar, Дархан, Дэшвил, Улаанбаатар, Улан-Батор, Уланбатор";20
+222;Мьянма;2;"Bago, Yangon";2
+223;Нидерланды;6;"Amsterdam, Delft, Den Haag, Groningen, Leeuwarden, Rotterdam";8
+224;Никарагуа;1;Managua;1
+225;Новая Зеландия;1;Auckland;2
+226;Новосибирск;1;Новосибирск;1
+227;Норвегия;2;"Holmestrand, Oslo";2
+228;Объединенные Арабские Эмираты;1;Dubai;1
+229;Остров Норфолк;1;Kingston;1
+230;Острова Теркс и Кайкос;1;Cockburn Town;1
+231;Пакистан;2;"Faisalābād, Islamabad";2
+232;Панама;2;"Panama, Одинцово";2
+233;Папуа - Новая Гвинея;1;Ворсма;1
+234;Парагвай;2;"Asunción, Ciudad del Este";2
+235;Перу;13;"Ate Vitarte, Callao, Carabayllo, Chiclayo, Chimbote, Chorrillos, Collique, Comas, Huachipa, Ica, Lima, Piura, San Borja";23
+236;Польша;6;"Dęblin, Gdańsk, Jedwabne, Kraków, Sopot, Warszawa";11
+237;Португалия;3;"Murgeira, Vilamoura, Лиссабон";3
+238;Приднестровье;1;Бендеры;1
+239;Республика Беларусь;2;"Гомель, Минск";5
+240;Республика Казахстан;1;Алматы;2
+241;Республика Корея;1;Якутск;1
+242;Республика Молдова;3;"Кагул, Кишинев, Орхей";4
+243;Республика Таджикистан;1;Душанбе;1
+244;Реюньон;1;Пенза;1
+245;Российская Федерация;1;Новосибирск;1
+246;Россия;8641;TO MANY CITIES;249887
+247;Россия (+7);1;Балашиха;1
+248;РоссияВ;2;"Владимир, Оренбург";2
+249;РоссияЖ;1;Республика Тыва;1
+250;РоссияР;1;Ростов-на-Дону;1
+251;Румыния;2;"Bragadiru, Bucureşti";3
+252;Сальвадор;1;San Salvador;1
+253;Саудовская Аравия;1;Люберцы;1
+254;Сент-Пьер и Микелон;1;Saint-Pierre;1
+255;Сербия;4;"Beograd, Jelašnica, Korenita, Novi Sad";5
+256;Сингапур;1;Singapore;3
+257;Сирийская Арабская Республика;3;"Aleppo, Baniyas,Tartous, Dayr az Zawr";5
+258;Словакия;1;Bratislava;13
+259;Словения;2;"Koper, Nova Gorica";2
+260;Сомали;2;"Mogadishu, Брянск";2
+261;станица Павловская;1;станица Павловская;1
+262;Судан;1;Port Sudan;1
+263;США;57;"Aberdeen, Adako, Amherst, Ann Arbor, Apex, Atlanta, Baltimore, Belmont, Berrien Springs, Boston, Camas, Carmel, Chicago, Dallas, Frederick, Hackettstown, Holmdel, Irvine, Issaquah, Kirkland, Los Angeles, Madison, New York, New York City, North Port, Palo Alto, Pizdyuk, Pleasanton, Pomfret, Providence, Redmond, Reston, Russia, Salem, San Francisco, Seattle, Shrewsbury, State College, Stony Brook, Tampa, Thousand Oaks, Walnut Creek, Washington, D.C., Агаракадзор, Алма-Ата, Бабаево, Брянск, Волгоград, Казалинск, Караганда, Кокшетау, Павлодар, Самара, Сан Диего, Санкт-Петербург, Саратов, Хьюстон";107
+264;Таджикистан;37;"-, abdullojon, Dushanbe, Айни, Ахалцихе, Аштский район Город Шайдан, Бабаджан Гафуровский район, Бишкек, Бободжон гафуровский район, Бохтар, Бустон, Вахдат, Владивосток, Гиссар, Город, город Душанбе, Гулистон, Дангара, Деваштич, Душабе, Душанбе, ДФ НИТУ МИСиС, Дшанбе, Истаравшан, Исфара, Канибадам, Курган-Тюбе, м, Москва, Нурек, Пенджикент, Рудаки, Таджикистан, Хорог, Худжанд, Шахринав, Яван";810
+265;Таиланд;2;"Bangkok, Surat Thani";2
+266;Тунис;1;Хабаровск;1
+267;Туркменистан;22;"Balkanabat, dashogiz, Dashoguz, Turkmenabat, Ашхабад, Балканабад, Балканабат, Гёкдепе, Гороглы, Дашогуз, Душанбе, Ёлётен, Йолотен, Каахка, Лебапский велаят, Мары, Москва, Сердар, Туркменабад, Туркменабат, Туркменбаши, Хазар";178
+268;Турция;6;"Ankara, Antalya, Bursa, Eskişehir, İstanbul, jkhk";10
+269;Узбекистан;55;"Buxara, Namangan, Абдусамадабад, Айранчи, Алмалык, Ангрен, Андижан, Архангаран, Баяут, Бекабад, Бухара, Гишткуприк, Гулистан, Дангара, Джизак, Дукент, Дустабад, Душанбе, Еркатай, Зарафшан, Карши, Касан, Кибрай, Коканд, Косон, наваи, Навои, Наманган, Нукус, Паркент, поселок таваксай, Сайхунабад, Самарканд, Санкт-Петербург, Сурхан (Джаркурганский район), Сырдарья, Ташбулак, Ташкент, Ташкент (Мирзачульский район), Термез, Тошкурган, Туда (Папский район), Уйчи, Ургенч, Учкудук, Учкурган, Фергана, Ханабад, Хива, Чимен (Кургантепинский район), Чирчик, Чодак, Чуст, Янгикурган (Янгикурганский район), Янгиюль";596
+270;Україна;2;"Павлоград, Чернігів";2
+271;Украина;354;TO MANY CITIES;3413
+272;Финляндия;4;"Espoo, Haapavesi, Helsinki, Ylojarvi";5
+273;Франция;12;"Grenoble, Guyancourt, Lyon, Nice, Paris, Saint-Genis-Pouilly, Strasbourg, Tarascon, Toulouse, Versailles, Wassy, Казань";18
+274;Центрально-Африканская Республика;1;Мегион;1
+275;Челябинск;1;Карталы;1
+276;Череповец;1;Череповец;1
+277;Черногория;3;"Bar, Bijelo Polje, Trojica";3
+278;Чехия;5;"Brno, České Budějovice, Čimice, Plzeň, Praha";11
+279;Чили;1;Valparaíso;1
+280;Швейцария;5;"Basel, Genève, Zürich, Москва, Пермь";7
+281;Швеция;3;"Göteborg, Malmö, Stockholm";3
+282;Эквадор;1;Guayaquil;1
+283;Электросталь;1;Электросталь;1
+284;Эстония;12;"Abissaare, Kohtla-Järve (Кохтла-Ярве), Maardu (Маарду), Narva, Narva (Нарва), Narva-Jõesuu (Усть-Нарва), Sillamäe (Силламяэ), Tallinn, Tallinn (Таллин), Брест, Нарва, Пятигорск";28
+285;Эфиопия;2;"Addis Ababa, Москва";2
+286;Южная Корея;3;"Daejeon, Seoul, Suwon";8
+287;Южный Судан;1;туркменистан;1
+288;Япония;4;"Kokubunji, Ōsaka, Tokyo, Yokohama";7
+289;افغانستان;2;"Farāh Kowt, Kabul";3
+290;الجزائر;3;"El Malah, Oran, غرداية";3
+291;العراق;1;Baghdad;1
+292;المملكة العربية السعودية;4;"Madīnat Yanbu` aş Şinā`īyah, Mecca, Medina, Riyadh";4
+293;اليمن;1;sana'a;2
+294;سوريا;1;ادلب;1
+295;ليبيا;1;طرابلس;1
+296;مصر;3;"Cairo, Kawm Ḩamādah, القوصيه  اسيوط";3
+297;भारत;1;Mandlā;1
+298;中国;3;"Liaocheng, Taizhou, Zibo";3
+299;亚美尼亚;1;Ереван;1
